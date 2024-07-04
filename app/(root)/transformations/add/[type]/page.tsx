@@ -1,6 +1,6 @@
 import Header from '@/components/shared/Header'
 import TransformationForm from '@/components/shared/TransformationForm'
-import { transformationTypes } from '@/constants/indes'
+import { transformationTypes } from '@/constants'
 import { getUserById } from '@/lib/actions/user.actions'
 import { auth } from '@clerk/nextjs/server'
 import { redirect } from 'next/navigation'

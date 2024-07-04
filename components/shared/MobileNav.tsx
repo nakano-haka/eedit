@@ -5,7 +5,7 @@ import {
     SheetContent,
     SheetTrigger,
   } from "@/components/ui/sheet"
-import { navLinks } from "@/constants/indes"
+import { navLinks } from "@/constants"
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs"
 import Image from "next/image"
 import Link from "next/link"

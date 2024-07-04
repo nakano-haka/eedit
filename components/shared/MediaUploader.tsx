@@ -31,7 +31,7 @@ const MediaUploader = ({
             publicId: result?.info?.public_id,
             width: result?.info?.width,
             height: result?.info?.height,
-            secureUrl: result?.info?.secure_url,
+            secureURL: result?.info?.secure_url,
             // transformationUrl: result?.info?.transformation_url,
             // aspectRatio: result?.info?.aspect_ratio,
             // color: result?.info?.color,
